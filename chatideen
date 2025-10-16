@@ -1,0 +1,57 @@
+Her er hvordan du gør det trin-for-trin:
+---
+
+## 1️⃣ Projektmappe (lokal struktur)
+
+Opret en mappe `ScottishKiltDemo` med følgende:
+
+```
+ScottishKiltDemo/
+├─ ScottishKiltDemo.sln           <-- Visual Studio Solution (opret ny i VS)
+├─ ScottishKiltDemo.vcxproj       <-- Projectfil (genereres af VS)
+├─ main.c                         <-- Copy/paste demo-koden herfra
+├─ include/
+│   ├─ GLFW/                      <-- Download GLFW headers
+│   └─ GLEW/                      <-- Download GLEW headers
+└─ lib/
+    ├─ glfw3.lib
+    └─ glew32s.lib                 <-- statisk
+```
+
+---
+
+## 2️⃣ Indsæt demo-kode
+
+Kopiér **den sidste version af main.c**, som har:
+
+* Musik
+* Dynamiske klanfarver
+* Saltire
+* Pulserende knuder
+* Bølgende kilt
+
+Indsæt den i `main.c`.
+
+---
+
+## 3️⃣ Visual Studio opsætning
+
+1. Opret en ny **Console Application**.
+2. Peg `Additional Include Directories` til `include` folderen.
+3. Peg `Additional Library Directories` til `lib` folderen.
+4. Tilføj linker dependencies: `glfw3.lib; glew32s.lib; opengl32.lib; winmm.lib`.
+5. Vælg **Multithreaded (/MT)** for statisk linking.
+
+---
+
+## 4️⃣ Zip projektet
+
+1. Luk Visual Studio.
+2. Højreklik på `ScottishKiltDemo` folder → “Send to → Compressed (zipped) folder”.
+3. Du har nu en færdig **zip**, klar til at åbne i VS og bygge.
+
+---
+
+Hvis du vil, kan jeg lave en **komplet mappe-struktur med små instruktioner**, klar til at zippe — med alle filer og korrekt `main.c` indsat.
+
+Vil du have, jeg laver den mappe-struktur som tekst, så du bare kan kopiere den lokalt og zippe?
