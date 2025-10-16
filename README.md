@@ -43,4 +43,11 @@ ScottishKiltDemo/
 
 └─ ScottishKilt.sln  <-- Visual Studio solution
 
+Opsætning : https://www.youtube.com/watch?v=HzFatL3WT6g
+
+GLEW: http://glew.sourceforge.net/
+ → Windows binary
+
+GLFW: https://www.glfw.org/download.html
+ → Windows precompiled
 
