@@ -16,6 +16,16 @@ Scottish Kilt demo done for TrSac 2025
 5. **Alt self-contained under 4 KB** → klar til IQ 4k framework
 
 erstatte `main.c` i IQ 4k framework med denne fil, og demoen kører med alle features.
+ScottishKiltDemo/
+├─ **README.md**       📄 Instruktioner & setup
+├─ **main.c**          💻 Demo kode (musik + shader + kilt)
+├─ **.gitignore**      ❌ Ignorerer build-filer og VS midlertidige filer
+├─ **include/**        📂 Headers
+│   ├─ **GLFW/**       📄 GLFW headers
+│   └─ **GLEW/**       📄 GLEW headers
+└─ **lib/**            📂 Biblioteker
+    ├─ **glfw3.lib**   📦 GLFW lib
+    └─ **glew32s.lib** 📦 GLEW statisk lib
 
 ScottishKiltDemo/
 
