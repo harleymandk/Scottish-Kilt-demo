@@ -1,6 +1,6 @@
-
+#sizecode #4kb #shaders
 # Scottish-Kilt-demo
-Scottish Kilt demo done for TrSac 2025
+Scottish Kilt demo done for #TrSac 2025  
 * Musik
 * Dynamiske klanfarver
 * Saltire
