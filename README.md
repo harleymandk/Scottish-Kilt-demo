@@ -1,4 +1,5 @@
-#sizecode #4kb #shaders
+#sizecode #4kb #shaders   Note2self : https://chatgpt.com/share/69066b42-6f20-8002-a176-9f3651a461ca
+
 # Scottish-Kilt-demo
 Scottish Kilt demo done for #TrSac 2025  
 * Musik
